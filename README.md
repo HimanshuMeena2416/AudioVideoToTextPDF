@@ -19,6 +19,7 @@ This Python project converts audio files to text using OpenAI and video files to
    ```bash
    git clone https://github.com/your-username/your-repository.git
    cd your-repository
+   ```
 Install dependencies:
 bash
 Copy code
