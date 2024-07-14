@@ -44,3 +44,7 @@ python video_to_pdf.py https://www.youtube.com/watch?v=R3GfuzLMPkA
 - File uploads are limited to 25 MB for audio.
 - Video download retries up to 3 times in case of errors.
 - Frames are extracted based on structural similarity with a default threshold of 0.8.
+
+## License
+
+This project is open-source.
