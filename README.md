@@ -31,16 +31,16 @@ pip install -r requirements.txt
 2. Modify audio_to_text.py to specify your input audio file and output text file paths.
 3. Run python audio_to_text.py.
 ### Convert Video to PDF
-Ensure you have URLs of videos or playlists from YouTube.
-Modify video_to_pdf.py to specify your input video URL and output PDF directory.
-Run python video_to_pdf.py.
-Example
+1. Ensure you have URLs of videos or playlists from YouTube.
+2. Modify video_to_pdf.py to specify your input video URL and output PDF directory.
+3. Run python video_to_pdf.py.
+## Example
 To convert a specific YouTube video to PDF:
 
-bash
-Copy code
+```bash
 python video_to_pdf.py https://www.youtube.com/watch?v=R3GfuzLMPkA
-Notes
-File uploads are limited to 25 MB for audio.
-Video download retries up to 3 times in case of errors.
-Frames are extracted based on structural similarity with a default threshold of 0.8.
+```
+## Notes
+- File uploads are limited to 25 MB for audio.
+- Video download retries up to 3 times in case of errors.
+- Frames are extracted based on structural similarity with a default threshold of 0.8.
